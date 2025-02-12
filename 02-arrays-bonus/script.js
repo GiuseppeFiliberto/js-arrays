@@ -35,12 +35,11 @@ console.log(teachers);
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
-const isFabioPresent = [];
+let isFabioPresent 
 
 for (let index = 0; index < teachers.length; index++) {
     if (teachers[index] === "Fabio") {
-      console.log("Fabio è presente");
-      
+      isFabioPresent = true 
     }  
 }
 
